@@ -23,3 +23,14 @@ To compile and run the Sudoku solver, follow these steps:
    ```sh
    git clone https://github.com/yourusername/sudoku_solver.git
    cd sudoku_solver
+2. **Compile the Code**
+
+   ```sh
+   cc -o sudoku_solver header.h *.c
+
+## Usage
+
+Run the compiled program with the following command:
+
+   ```sh
+   ./sudoku_solver [option]
