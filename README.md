@@ -28,7 +28,7 @@ The program progressively solves the Sudoku puzzle using a backtracking algorith
 
 Once the puzzle is solved, the complete solution is displayed with the solved numbers in green.
 
-### Invalid Sudoku Grid
+### Invalid Sudoku Grid (in progress)
 
 ![Invalid Sudoku Grid](assets/screenshot3.png)
 
