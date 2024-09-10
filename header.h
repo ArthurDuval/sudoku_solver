@@ -2,6 +2,8 @@
 #define HEADER_H
 
 #include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
 
 typedef struct
 {
@@ -10,13 +12,9 @@ typedef struct
 	int	grid3[9][9];
 } Sudoku;
 
+Sudoku*	file_handler(char *file_path);
 void	store_grid(Sudoku *s, int (*grid)[9]);
 void	display_grid(Sudoku *s, int is_finished);
-void	display_process(Sudoku *s, int delay);
-int	is_not_in_row(Sudoku *s, int r, int v);
-int	is_not_in_col(Sudoku *s, int c, int v);
-int	is_not_in_subgrid(Sudoku *s, int r, int c, int v);
-int	can_be_placed(Sudoku *s, int r, int c, int v);
 int	sudoku_solver(Sudoku *s, int r, int c, int delay);
 
 #endif

@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include "header.h"
 
 void	store_grid(Sudoku *s, int (*grid)[9])
