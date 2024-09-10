@@ -34,6 +34,25 @@ To compile and run the Sudoku solver, follow these steps:
 Run the compiled program with the following command:
 
    ```sh
-   "./sudoku_solver [option]"
+   ./sudoku_solver [option]
+   ```
+- **fast**: Solve the puzzle with quicker updates. This option speeds up the display updates for faster visualization of the solving process.
+- **no_delay**: Solve the puzzle with no delay between steps. This option eliminates any delay, providing immediate updates as the puzzle is solved.
+If no options are specified, the program will use the default speed setting with a delay of 300 milliseconds.
 
+## File Input Format (in progress)
 
+To provide a Sudoku grid through a text file, create a file (e.g., sudoku.txt) with the following format:
+
+   ```sh
+   3 0 6 5 0 8 4 0 0
+   5 2 0 0 0 0 0 0 0
+   0 8 7 0 0 0 0 3 1
+   0 0 3 0 1 0 0 8 0
+   9 0 0 8 6 3 0 0 5
+   0 5 0 0 9 0 6 0 0
+   1 3 0 0 0 0 2 5 0
+   0 0 0 0 0 0 0 7 4
+   0 0 5 2 0 6 3 0 0
+   ```
+The numbers represent the Sudoku grid, where 0 indicates an empty cell. Save this file in the same directory as the compiled program for input.
