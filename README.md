@@ -34,3 +34,5 @@ Run the compiled program with the following command:
 
    ```sh
    ./sudoku_solver [option]
+- **fast**: Solve the puzzle with quicker updates. This option speeds up the display updates for faster visualization of the solving process.
+- **no_delay**: Solve the puzzle with no delay between steps. This option eliminates any delay, providing immediate updates as the puzzle is solved.
