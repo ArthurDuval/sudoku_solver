@@ -23,6 +23,7 @@ To compile and run the Sudoku solver, follow these steps:
    ```sh
    git clone https://github.com/yourusername/sudoku_solver.git
    cd sudoku_solver
+   
 2. **Compile the Code**
 
    ```sh
@@ -33,6 +34,6 @@ To compile and run the Sudoku solver, follow these steps:
 Run the compiled program with the following command:
 
    ```sh
-   ./sudoku_solver [option]
-- **fast**: Solve the puzzle with quicker updates. This option speeds up the display updates for faster visualization of the solving process.
-- **no_delay**: Solve the puzzle with no delay between steps. This option eliminates any delay, providing immediate updates as the puzzle is solved.
+   "./sudoku_solver [option]"
+
+
