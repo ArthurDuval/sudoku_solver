@@ -20,7 +20,7 @@ This is a C-based Sudoku solver that reads, solves, and displays Sudoku puzzles.
 
 ![Solving the Sudoku Puzzle](assets/screenshot1.png)
 
-The program progressively solves the Sudoku puzzle, showing updates with each step.
+The program progressively solves the Sudoku puzzle using a backtracking algorithm. The white characters represent the original numbers from the provided grid. The yellow numbers indicate the current value being tried by the solver. The red dots signify a deleted number, symbolizing a backtracking step where a previous guess was invalid.
 
 ### Sudoku Puzzle Solved
 
