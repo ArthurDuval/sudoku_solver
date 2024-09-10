@@ -13,6 +13,27 @@ This is a C-based Sudoku solver that reads, solves, and displays Sudoku puzzles.
 - Interactive command-line interface for inputting and displaying Sudoku grids (in progress).
 - Options for different solving speeds and display delays.
 
+## Screenshots
+
+
+### Solving the Sudoku Puzzle
+
+![Solving the Sudoku Puzzle](assets/screenshot1.png)
+
+The program progressively solves the Sudoku puzzle, showing updates with each step.
+
+### Sudoku Puzzle Solved
+
+![Sudoku Puzzle Solved](assets/screenshot2.png)
+
+Once the puzzle is solved, the complete solution is displayed with the solved numbers in green.
+
+### Invalid Sudoku Grid
+
+![Invalid Sudoku Grid](assets/screenshot3.png)
+
+If the Sudoku grid is invalid, the program will output an error message indicating the grid cannot be solved.
+
 ## Installation
 
 To compile and run the Sudoku solver, follow these steps:
