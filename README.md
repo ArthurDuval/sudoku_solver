@@ -38,6 +38,7 @@ Run the compiled program with the following command:
    ```
 - **fast**: Solve the puzzle with quicker updates. This option speeds up the display updates for faster visualization of the solving process.
 - **no_delay**: Solve the puzzle with no delay between steps. This option eliminates any delay, providing immediate updates as the puzzle is solved.
+
 If no options are specified, the program will use the default speed setting with a delay of 300 milliseconds.
 
 ## File Input Format (in progress)
