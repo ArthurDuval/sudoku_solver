@@ -10,9 +10,8 @@ This is a C-based Sudoku solver that reads, solves, and displays Sudoku puzzles.
 
 ## Features
 
-- Interactive command-line interface for inputting and displaying Sudoku grids.
+- Interactive command-line interface for inputting and displaying Sudoku grids (in progress).
 - Options for different solving speeds and display delays.
-- Clear and organized code structure with modular functions.
 
 ## Installation
 
@@ -21,13 +20,15 @@ To compile and run the Sudoku solver, follow these steps:
 1. **Clone the Repository**
 
    ```sh
-   git clone https://github.com/yourusername/sudoku_solver.git
+   git clone https://github.com/ArthurDuval/sudoku_solver.git
    cd sudoku_solver
+   ```
    
 2. **Compile the Code**
 
    ```sh
    cc -o sudoku_solver header.h *.c
+   ```
 
 ## Usage
 
@@ -36,6 +37,7 @@ Run the compiled program with the following command:
    ```sh
    ./sudoku_solver [option]
    ```
+
 - **fast**: Solve the puzzle with quicker updates. This option speeds up the display updates for faster visualization of the solving process.
 - **no_delay**: Solve the puzzle with no delay between steps. This option eliminates any delay, providing immediate updates as the puzzle is solved.
 
@@ -56,4 +58,5 @@ To provide a Sudoku grid through a text file, create a file (e.g., sudoku.txt) w
    0 0 0 0 0 0 0 7 4
    0 0 5 2 0 6 3 0 0
    ```
+
 The numbers represent the Sudoku grid, where 0 indicates an empty cell. Save this file in the same directory as the compiled program for input.
