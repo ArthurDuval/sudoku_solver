@@ -4,13 +4,13 @@
 
 This is a C-based Sudoku solver that reads, solves, and displays Sudoku puzzles. The project features:
 
-- **Grid Input**: Accepts Sudoku grids from text files or command-line input (in progress).
+- **Grid Input**: Accepts Sudoku grids from text files or command-line input.
 - **Puzzle Solving**: Uses a backtracking algorithm to solve Sudoku puzzles.
 - **Grid Display**: Visually displays Sudoku grids with color-coded output to indicate progress and solutions.
 
 ## Features
 
-- Interactive command-line interface for inputting and displaying Sudoku grids (in progress).
+- Interactive command-line interface for inputting and displaying Sudoku grids.
 - Options for different solving speeds and display delays.
 
 ## Screenshots
@@ -28,7 +28,7 @@ The program progressively solves the Sudoku puzzle using a backtracking algorith
 
 Once the puzzle is solved, the complete solution is displayed with the solved numbers in green.
 
-### Invalid Sudoku Grid (in progress)
+### Invalid Sudoku Grid
 
 ![Invalid Sudoku Grid](assets/screenshot3.png)
 
@@ -64,7 +64,7 @@ Run the compiled program with the following command:
 
 If no options are specified, the program will use the default speed setting with a delay of 300 milliseconds.
 
-## File Input Format (in progress)
+## File Input Format
 
 To provide a Sudoku grid through a text file, create a file (e.g., sudoku.txt) with the following format:
 
